@@ -1,0 +1,44 @@
+{
+    "modules": {
+        "Core": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        },
+        "Auth": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        },
+        "Dashboard": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        },
+        "Leads": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        },
+        "Contacts": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        },
+        "Accounts": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        },
+        "Deals": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        },
+        "Activities": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        },
+        "Reports": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        },
+        "Settings": {
+            "enabled": true,
+            "installed_at": "2024-01-01 00:00:00"
+        }
+    }
+}

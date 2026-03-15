@@ -1,0 +1,12 @@
+{
+    "name": "Settings",
+    "alias": "settings",
+    "description": "System settings, user management and module configuration",
+    "keywords": [],
+    "priority": 10,
+    "providers": [
+        "Modules\\Settings\\Providers\\SettingsServiceProvider"
+    ],
+    "aliases": {},
+    "files": []
+}

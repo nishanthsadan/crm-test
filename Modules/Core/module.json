@@ -1,0 +1,12 @@
+{
+    "name": "Core",
+    "alias": "core",
+    "description": "Core module with base classes and helpers",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Core\\Providers\\CoreServiceProvider"
+    ],
+    "aliases": {},
+    "files": []
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Reports",
+    "alias": "reports",
+    "description": "Sales reports and analytics",
+    "keywords": [],
+    "priority": 8,
+    "providers": [
+        "Modules\\Reports\\Providers\\ReportsServiceProvider"
+    ],
+    "aliases": {},
+    "files": []
+}

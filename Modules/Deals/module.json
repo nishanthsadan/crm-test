@@ -1,0 +1,12 @@
+{
+    "name": "Deals",
+    "alias": "deals",
+    "description": "Sales deals and pipeline management",
+    "keywords": [],
+    "priority": 6,
+    "providers": [
+        "Modules\\Deals\\Providers\\DealsServiceProvider"
+    ],
+    "aliases": {},
+    "files": []
+}

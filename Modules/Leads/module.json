@@ -1,0 +1,12 @@
+{
+    "name": "Leads",
+    "alias": "leads",
+    "description": "Lead management module",
+    "keywords": [],
+    "priority": 3,
+    "providers": [
+        "Modules\\Leads\\Providers\\LeadsServiceProvider"
+    ],
+    "aliases": {},
+    "files": []
+}

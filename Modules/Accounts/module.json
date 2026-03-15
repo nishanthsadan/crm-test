@@ -1,0 +1,12 @@
+{
+    "name": "Accounts",
+    "alias": "accounts",
+    "description": "Account/Company management module",
+    "keywords": [],
+    "priority": 5,
+    "providers": [
+        "Modules\\Accounts\\Providers\\AccountsServiceProvider"
+    ],
+    "aliases": {},
+    "files": []
+}

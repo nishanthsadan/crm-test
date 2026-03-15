@@ -1,0 +1,12 @@
+{
+    "name": "Dashboard",
+    "alias": "dashboard",
+    "description": "Dashboard module with KPI charts",
+    "keywords": [],
+    "priority": 2,
+    "providers": [
+        "Modules\\Dashboard\\Providers\\DashboardServiceProvider"
+    ],
+    "aliases": {},
+    "files": []
+}

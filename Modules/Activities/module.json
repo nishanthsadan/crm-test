@@ -1,0 +1,12 @@
+{
+    "name": "Activities",
+    "alias": "activities",
+    "description": "Activities module: calls, meetings, tasks, emails",
+    "keywords": [],
+    "priority": 7,
+    "providers": [
+        "Modules\\Activities\\Providers\\ActivitiesServiceProvider"
+    ],
+    "aliases": {},
+    "files": []
+}
