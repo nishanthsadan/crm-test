@@ -1,30 +1,76 @@
+# ============================================================
+# Laravel CRM - .gitignore
+# ============================================================
+
+# ----- Laravel core ----------------------------------------
 /vendor/
-node_modules/
-npm-debug.log
-yarn-error.log
+/node_modules/
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
-
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
-
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
+# Environment & secrets
 .env
-Homestead.yaml
-Homestead.json
-/.vagrant
-.phpunit.result.cache
+.env.*
+!.env.example
 
-/public/build
-/storage/pail
-.env.backup
-.env.production
-.phpactor.json
-auth.json
+# Compiled / cached files
+/bootstrap/cache/*.php
+/storage/framework/cache/data/
+/storage/framework/sessions/
+/storage/framework/views/
+/storage/logs/
+*.log
+
+# Public compiled assets (if using Vite/Mix build)
+/public/hot
+/public/build/
+/public/storage
+
+# ----- Development tools -----------------------------------
+.phpunit.result.cache
+/.phpunit.cache/
+.php-cs-fixer.cache
+.php_cs.cache
+
+# Laravel Sail / Docker
+/docker-compose.override.yml
+.sail.env
+
+# Laravel Pint
+/.pint.cache
+
+# Telescope
+/public/vendor/telescope
+
+# ----- IDE & editor ----------------------------------------
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# ----- OS files --------------------------------------------
+desktop.ini
+ehthumbs.db
+
+# ----- Project-specific ------------------------------------
+# Screenshots used during development
+Screenshot*.png
+Screenshot*.jpg
+
+# SQLite databases (if used locally)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+database/database.sqlite
+
+# Zip / archive exports
+*.zip
+*.tar.gz
+*.tar
+
+# ----- Keep these empty folders tracked -------------------
+!storage/framework/cache/data/.gitkeep
+!storage/framework/sessions/.gitkeep
+!storage/framework/views/.gitkeep
+!storage/logs/.gitkeep
+!public/vendor/.gitkeep
